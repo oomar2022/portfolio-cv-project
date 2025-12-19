@@ -1,0 +1,139 @@
+
+
+
+/* fornt style */
+.open-sans-display {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.name-style{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.name-font-style{
+    color: #FD6E0A;
+}
+/* Navigation Style */
+.header{
+    background-image:url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul li{
+    font-size: 20px;
+    margin-right: 51px;
+    
+}
+
+.dark2{
+    color: #474747;
+}
+
+.btn-comon{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 7px;
+    padding: 16px 32px;
+    font-weight: bold;
+    border: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+
+.banner-greetings{
+    max-width: 585;
+}
+
+.banner-image{
+    width: 580;
+}
+
+.greetings-head{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.greetings-name{
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.bannes-discription{
+    font-size: 18px;
+}
+
+
+
+/* shared style */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+
+.about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 121px 156px;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+
+.about-description{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+ font-size: 20px;
+ color: #757575;
+ margin-bottom: 0;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+
+    
+}
+
